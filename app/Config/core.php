@@ -32,7 +32,7 @@
  * In production mode, flash messages redirect after a time interval.
  * In development mode, you need to click the flash message to continue.
  */
-	Configure::write('debug', 2);
+	Configure::write('debug', 0);
 
 /**
  * Configure the Error handler used to handle errors for your application.  By default
@@ -183,13 +183,11 @@
 
 /**
  * A random string used in security hashing methods.
- */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+ */	Configure::write('Security.salt', '87098asdf098asd0f98asdfa0sd98f7asdf098as7df0as98df7sac86953');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
- */
-	Configure::write('Security.cipherSeed', '76859309657453542496749683645');
+ */	Configure::write('Security.cipherSeed', '3asd987asd0f987asfd0a98sd7fa0sdf987sadf761');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
