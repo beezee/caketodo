@@ -19,3 +19,4 @@ foreach ($todos as $todo)
 <div id="new-todo-div">
     <input id="new-todo" placeholder="New todo" type="text" style="width:300px;" />
 </div>
+<?php echo $this->Paginator->numbers(array('first' => 'First page')); ?>
